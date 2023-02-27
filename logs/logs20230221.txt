@@ -1,0 +1,40 @@
+2023-02-21 15:44:34.308 -08:00 [ERR] Caught SQL Exception trying to create new user System.Data.SqlClient.SqlException (0x80131904): Violation of UNIQUE KEY constraint 'UQ__USERS__D9C1FA00A1E82AB3'. Cannot insert duplicate key in object 'dbo.USERS'. The duplicate key value is (Art).
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at System.Data.SqlClient.SqlCommand.CompleteExecuteScalar(SqlDataReader ds, Boolean returnSqlValue)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at DataAccess.DBRepository.CreateNewUser(String name, String password) in C:\Revature\230206-NET\Project1\DataAccess\DBRepository.cs:line 69
+ClientConnectionId:9697d2e5-c6e5-40bf-8540-5b03a3049871
+Error Number:2627,State:1,Class:14
+2023-02-21 15:47:55.618 -08:00 [ERR] Caught SQL Exception trying to create new user System.Data.SqlClient.SqlException (0x80131904): Violation of UNIQUE KEY constraint 'UQ__USERS__D9C1FA00A1E82AB3'. Cannot insert duplicate key in object 'dbo.USERS'. The duplicate key value is (Art).
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at System.Data.SqlClient.SqlCommand.CompleteExecuteScalar(SqlDataReader ds, Boolean returnSqlValue)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at DataAccess.DBRepository.CreateNewUser(String name, String password) in C:\Revature\230206-NET\Project1\DataAccess\DBRepository.cs:line 69
+ClientConnectionId:6e6f2601-42ce-4942-9132-eab87d9a62ee
+Error Number:2627,State:1,Class:14
+2023-02-21 15:49:04.569 -08:00 [ERR] Caught SQL Exception trying to create new user System.Data.SqlClient.SqlException (0x80131904): Violation of UNIQUE KEY constraint 'UQ__USERS__D9C1FA00A1E82AB3'. Cannot insert duplicate key in object 'dbo.USERS'. The duplicate key value is (Art).
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at System.Data.SqlClient.SqlCommand.CompleteExecuteScalar(SqlDataReader ds, Boolean returnSqlValue)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at DataAccess.DBRepository.CreateNewUser(String name, String password) in C:\Revature\230206-NET\Project1\DataAccess\DBRepository.cs:line 69
+ClientConnectionId:6e6f2601-42ce-4942-9132-eab87d9a62ee
+Error Number:2627,State:1,Class:14
+2023-02-21 19:07:00.443 -08:00 [ERR] Caught SQL Exception trying to create new user

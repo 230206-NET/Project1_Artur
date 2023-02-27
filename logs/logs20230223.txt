@@ -1,0 +1,229 @@
+2023-02-23 08:49:32.878 -08:00 [ERR] Caught SQL Exception trying to create new user
+2023-02-23 09:13:34.112 -08:00 [ERR] Caught SQL Exception trying to create new user
+2023-02-23 09:14:07.858 -08:00 [ERR] Caught SQL Exception trying to create new user
+2023-02-23 09:14:27.067 -08:00 [ERR] Caught SQL Exception trying to create new user
+2023-02-23 09:16:32.943 -08:00 [ERR] Caught SQL Exception trying to create new user System.Data.SqlClient.SqlException (0x80131904): Must declare the scalar variable "@wIsManager".
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at DataAccess.DBRepository.CreateNewUser(String name, String password, Int32 isManager) in C:\Revature\230206-NET\Project1\DataAccess\DBRepository.cs:line 138
+ClientConnectionId:f9286633-1504-4663-9dc3-a7410dc55e4c
+Error Number:137,State:2,Class:15
+2023-02-23 13:54:49.542 -08:00 [ERR] Caught SQL Exception trying to create new user System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the CHECK constraint "PP". The conflict occurred in database "Project1", table "dbo.USERS", column 'PASSWORD'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at System.Data.SqlClient.SqlCommand.CompleteExecuteScalar(SqlDataReader ds, Boolean returnSqlValue)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at DataAccess.DBRepository.CreateNewUser(String name, String password, Int32 isManager) in C:\Revature\230206-NET\Project1\DataAccess\DBRepository.cs:line 139
+ClientConnectionId:f3ecf3a4-12e6-47ee-8e0c-b77df941fe04
+Error Number:547,State:0,Class:16
+2023-02-23 13:56:02.959 -08:00 [ERR] Caught SQL Exception trying to create new user System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the CHECK constraint "PP". The conflict occurred in database "Project1", table "dbo.USERS", column 'PASSWORD'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at System.Data.SqlClient.SqlCommand.CompleteExecuteScalar(SqlDataReader ds, Boolean returnSqlValue)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at DataAccess.DBRepository.CreateNewUser(String name, String password, Int32 isManager) in C:\Revature\230206-NET\Project1\DataAccess\DBRepository.cs:line 139
+ClientConnectionId:f3ecf3a4-12e6-47ee-8e0c-b77df941fe04
+Error Number:547,State:0,Class:16
+2023-02-23 13:56:24.202 -08:00 [ERR] Caught SQL Exception trying to create new user System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the CHECK constraint "PP". The conflict occurred in database "Project1", table "dbo.USERS", column 'PASSWORD'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at System.Data.SqlClient.SqlCommand.CompleteExecuteScalar(SqlDataReader ds, Boolean returnSqlValue)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at DataAccess.DBRepository.CreateNewUser(String name, String password, Int32 isManager) in C:\Revature\230206-NET\Project1\DataAccess\DBRepository.cs:line 139
+ClientConnectionId:f3ecf3a4-12e6-47ee-8e0c-b77df941fe04
+Error Number:547,State:0,Class:16
+2023-02-23 13:59:38.349 -08:00 [ERR] Caught SQL Exception trying to create new user System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the CHECK constraint "PP". The conflict occurred in database "Project1", table "dbo.USERS", column 'PASSWORD'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at System.Data.SqlClient.SqlCommand.CompleteExecuteScalar(SqlDataReader ds, Boolean returnSqlValue)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at DataAccess.DBRepository.CreateNewUser(String name, String password, Int32 isManager) in C:\Revature\230206-NET\Project1\DataAccess\DBRepository.cs:line 139
+ClientConnectionId:ca8aa0db-d0ff-45c1-b4d0-7b8e803c2b00
+Error Number:547,State:0,Class:16
+2023-02-23 14:05:01.035 -08:00 [ERR] Caught SQL Exception trying to create new user System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the CHECK constraint "PP". The conflict occurred in database "Project1", table "dbo.USERS", column 'PASSWORD'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at System.Data.SqlClient.SqlCommand.CompleteExecuteScalar(SqlDataReader ds, Boolean returnSqlValue)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at DataAccess.DBRepository.CreateNewUser(String name, String password, Int32 isManager) in C:\Revature\230206-NET\Project1\DataAccess\DBRepository.cs:line 139
+ClientConnectionId:93199310-a62e-46a2-9417-2ba7c93b92fd
+Error Number:547,State:0,Class:16
+2023-02-23 14:08:42.329 -08:00 [ERR] Caught SQL Exception trying to create new user System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the CHECK constraint "PP". The conflict occurred in database "Project1", table "dbo.USERS", column 'PASSWORD'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at System.Data.SqlClient.SqlCommand.CompleteExecuteScalar(SqlDataReader ds, Boolean returnSqlValue)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at DataAccess.DBRepository.CreateNewUser(String name, String password, Int32 isManager) in C:\Revature\230206-NET\Project1\DataAccess\DBRepository.cs:line 139
+ClientConnectionId:9f8f069a-4018-499f-8567-bd2a8f1a8f17
+Error Number:547,State:0,Class:16
+2023-02-23 14:09:17.281 -08:00 [ERR] Caught SQL Exception trying to create new user System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the CHECK constraint "PP". The conflict occurred in database "Project1", table "dbo.USERS", column 'PASSWORD'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at System.Data.SqlClient.SqlCommand.CompleteExecuteScalar(SqlDataReader ds, Boolean returnSqlValue)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at DataAccess.DBRepository.CreateNewUser(String name, String password, Int32 isManager) in C:\Revature\230206-NET\Project1\DataAccess\DBRepository.cs:line 139
+ClientConnectionId:9f8f069a-4018-499f-8567-bd2a8f1a8f17
+Error Number:547,State:0,Class:16
+2023-02-23 14:11:05.408 -08:00 [ERR] Caught SQL Exception trying to create new user System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the CHECK constraint "PP". The conflict occurred in database "Project1", table "dbo.USERS", column 'PASSWORD'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at System.Data.SqlClient.SqlCommand.CompleteExecuteScalar(SqlDataReader ds, Boolean returnSqlValue)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at DataAccess.DBRepository.CreateNewUser(String name, String password, Int32 isManager) in C:\Revature\230206-NET\Project1\DataAccess\DBRepository.cs:line 139
+ClientConnectionId:aa0da11f-d71e-475a-a80a-d95085561523
+Error Number:547,State:0,Class:16
+2023-02-23 14:13:22.239 -08:00 [ERR] Caught SQL Exception trying to create new user System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the CHECK constraint "PP". The conflict occurred in database "Project1", table "dbo.USERS", column 'PASSWORD'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at System.Data.SqlClient.SqlCommand.CompleteExecuteScalar(SqlDataReader ds, Boolean returnSqlValue)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at DataAccess.DBRepository.CreateNewUser(String name, String password, Int32 isManager) in C:\Revature\230206-NET\Project1\DataAccess\DBRepository.cs:line 139
+ClientConnectionId:04c20129-c8c7-4a4e-8e40-f3ce8ea8177b
+Error Number:547,State:0,Class:16
+2023-02-23 14:16:59.182 -08:00 [ERR] Caught SQL Exception trying to create new user System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the CHECK constraint "PP". The conflict occurred in database "Project1", table "dbo.USERS", column 'PASSWORD'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at System.Data.SqlClient.SqlCommand.CompleteExecuteScalar(SqlDataReader ds, Boolean returnSqlValue)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at DataAccess.DBRepository.CreateNewUser(String name, String password, Int32 isManager) in C:\Revature\230206-NET\Project1\DataAccess\DBRepository.cs:line 139
+ClientConnectionId:3c5e1986-c2db-4eb7-9fac-dab89f829387
+Error Number:547,State:0,Class:16
+2023-02-23 14:25:17.288 -08:00 [ERR] Caught SQL Exception trying to create new user System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the CHECK constraint "PP". The conflict occurred in database "Project1", table "dbo.USERS", column 'PASSWORD'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at System.Data.SqlClient.SqlCommand.CompleteExecuteScalar(SqlDataReader ds, Boolean returnSqlValue)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at DataAccess.DBRepository.CreateNewUser(String name, String password, Int32 isManager) in C:\Revature\230206-NET\Project1\DataAccess\DBRepository.cs:line 139
+ClientConnectionId:9ed39113-93a9-4741-9697-cc4e6ba3d19c
+Error Number:547,State:0,Class:16
+2023-02-23 14:26:24.927 -08:00 [ERR] Caught SQL Exception trying to create new user System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the CHECK constraint "PP". The conflict occurred in database "Project1", table "dbo.USERS", column 'PASSWORD'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at System.Data.SqlClient.SqlCommand.CompleteExecuteScalar(SqlDataReader ds, Boolean returnSqlValue)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at DataAccess.DBRepository.CreateNewUser(String name, String password, Int32 isManager) in C:\Revature\230206-NET\Project1\DataAccess\DBRepository.cs:line 139
+ClientConnectionId:f3b12a8e-e965-4813-b81e-ff458685b04f
+Error Number:547,State:0,Class:16
+2023-02-23 14:27:00.875 -08:00 [ERR] Caught SQL Exception trying to create new user System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the CHECK constraint "PP". The conflict occurred in database "Project1", table "dbo.USERS", column 'PASSWORD'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at System.Data.SqlClient.SqlCommand.CompleteExecuteScalar(SqlDataReader ds, Boolean returnSqlValue)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at DataAccess.DBRepository.CreateNewUser(String name, String password, Int32 isManager) in C:\Revature\230206-NET\Project1\DataAccess\DBRepository.cs:line 139
+ClientConnectionId:f3b12a8e-e965-4813-b81e-ff458685b04f
+Error Number:547,State:0,Class:16
+2023-02-23 14:27:08.665 -08:00 [ERR] Caught SQL Exception trying to create new user System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the CHECK constraint "PP". The conflict occurred in database "Project1", table "dbo.USERS", column 'PASSWORD'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at System.Data.SqlClient.SqlCommand.CompleteExecuteScalar(SqlDataReader ds, Boolean returnSqlValue)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at DataAccess.DBRepository.CreateNewUser(String name, String password, Int32 isManager) in C:\Revature\230206-NET\Project1\DataAccess\DBRepository.cs:line 139
+ClientConnectionId:f3b12a8e-e965-4813-b81e-ff458685b04f
+Error Number:547,State:0,Class:16
+2023-02-23 14:35:46.035 -08:00 [ERR] Caught SQL Exception trying to create new user System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the CHECK constraint "PASSWORD_VALIDATION". The conflict occurred in database "Project1", table "dbo.USERS", column 'PASSWORD'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at System.Data.SqlClient.SqlCommand.CompleteExecuteScalar(SqlDataReader ds, Boolean returnSqlValue)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at DataAccess.DBRepository.CreateNewUser(String name, String password, Int32 isManager) in C:\Revature\230206-NET\Project1\DataAccess\DBRepository.cs:line 139
+ClientConnectionId:034cad6a-32cf-4ce9-97dc-b1c335abba40
+Error Number:547,State:0,Class:16
+2023-02-23 14:35:54.127 -08:00 [ERR] Caught SQL Exception trying to create new user System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the CHECK constraint "USERNAME_LENGTH". The conflict occurred in database "Project1", table "dbo.USERS", column 'NAME'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at System.Data.SqlClient.SqlCommand.CompleteExecuteScalar(SqlDataReader ds, Boolean returnSqlValue)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at DataAccess.DBRepository.CreateNewUser(String name, String password, Int32 isManager) in C:\Revature\230206-NET\Project1\DataAccess\DBRepository.cs:line 139
+ClientConnectionId:034cad6a-32cf-4ce9-97dc-b1c335abba40
+Error Number:547,State:0,Class:16
+2023-02-23 14:40:59.962 -08:00 [ERR] Caught SQL Exception trying to create new user
+2023-02-23 22:13:51.285 -08:00 [ERR] Caught SQL Exception trying to create new user

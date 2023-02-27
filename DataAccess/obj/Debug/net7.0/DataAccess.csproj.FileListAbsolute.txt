@@ -1,0 +1,15 @@
+C:\Revature\230206-NET\Project1\DataAccess\obj\Debug\net7.0\DataAccess.csproj.AssemblyReference.cache
+C:\Revature\230206-NET\Project1\DataAccess\obj\Debug\net7.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Revature\230206-NET\Project1\DataAccess\obj\Debug\net7.0\DataAccess.AssemblyInfoInputs.cache
+C:\Revature\230206-NET\Project1\DataAccess\obj\Debug\net7.0\DataAccess.AssemblyInfo.cs
+C:\Revature\230206-NET\Project1\DataAccess\obj\Debug\net7.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Revature\230206-NET\Project1\DataAccess\bin\Debug\net7.0\DataAccess.deps.json
+C:\Revature\230206-NET\Project1\DataAccess\bin\Debug\net7.0\DataAccess.dll
+C:\Revature\230206-NET\Project1\DataAccess\bin\Debug\net7.0\DataAccess.pdb
+C:\Revature\230206-NET\Project1\DataAccess\bin\Debug\net7.0\User.dll
+C:\Revature\230206-NET\Project1\DataAccess\bin\Debug\net7.0\User.pdb
+C:\Revature\230206-NET\Project1\DataAccess\obj\Debug\net7.0\DataAccess.csproj.CopyComplete
+C:\Revature\230206-NET\Project1\DataAccess\obj\Debug\net7.0\DataAccess.dll
+C:\Revature\230206-NET\Project1\DataAccess\obj\Debug\net7.0\refint\DataAccess.dll
+C:\Revature\230206-NET\Project1\DataAccess\obj\Debug\net7.0\DataAccess.pdb
+C:\Revature\230206-NET\Project1\DataAccess\obj\Debug\net7.0\ref\DataAccess.dll

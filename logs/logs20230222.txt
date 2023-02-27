@@ -1,0 +1,1 @@
+2023-02-22 14:41:53.498 -08:00 [ERR] Caught SQL Exception trying to create new user
