@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jIamF4/diIm6bskvtJu5z0EoDrnrhbPb4LcjZo8gQ+sMtEsSYtEvik1jd4iriNa0jj87AW69UV/KcHX5qnDm+Q==",
+  "dgSpecHash": "KV4AuLL1M1vsTh8OsxqKgcTJDvSF4Xk7G6Hw+pouu5p7g+IE9i3fM7tg2k/xuws5UcEhz1bDIju4sYklDgW8ug==",
   "success": true,
-  "projectFilePath": "C:\\Revature\\230206-NET\\Project1\\UI\\UI.csproj",
+  "projectFilePath": "C:\\Revature\\230206-NET\\Project1\\ui\\UI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\17473\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\17473\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

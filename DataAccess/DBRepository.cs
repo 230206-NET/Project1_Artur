@@ -134,6 +134,7 @@ public class DBRepository : IRepository
     /// Persists a new user to storage
     /// </summary>
     public User CreateNewUser(string? name, string? password, int isManager) {
+        
         try 
         {
             using SqlConnection conn = new SqlConnection(Secrets.getConnectionString());
@@ -143,7 +144,7 @@ public class DBRepository : IRepository
             cmd.Parameters.AddWithValue("@wName", name);
             cmd.Parameters.AddWithValue("@wPassword", password);
             cmd.Parameters.AddWithValue("@wIsManager", isManager);
-
+            
             int createdId = (int) cmd.ExecuteScalar();
 
             User user = new User(name,password,createdId,isManager);
@@ -177,7 +178,9 @@ public class DBRepository : IRepository
         }
     }
 
-    public void ShowUsersList() {
+    public List<User> ShowUsersList() {
+        
+        List<User> usersList = new List<User>();
         using SqlConnection connection = new SqlConnection(Secrets.getConnectionString()); 
 
         // Click the "Connect" button
@@ -191,8 +194,12 @@ public class DBRepository : IRepository
         while(reader.Read()) {
             int wId = (int) reader["ID"];
             string wName = (string) reader["NAME"];
-            Console.WriteLine($"{wId} - {wName}");
+            //Console.WriteLine($"{wId} - {wName}");
+            string wpassword = (string) reader["PASSWORD"];
+            int wisManager = (int) reader["ISMANAGER"];
+            usersList.Add(new User(wName,wpassword,wId,wisManager));
         }
+        return usersList;
     }   
 
     public void ApproveTicket(int t_id) {

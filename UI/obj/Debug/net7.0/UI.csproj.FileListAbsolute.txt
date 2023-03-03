@@ -27,3 +27,5 @@ C:\Revature\230206-NET\Project1\UI\obj\Debug\net7.0\refint\UI.dll
 C:\Revature\230206-NET\Project1\UI\obj\Debug\net7.0\UI.pdb
 C:\Revature\230206-NET\Project1\UI\obj\Debug\net7.0\UI.genruntimeconfig.cache
 C:\Revature\230206-NET\Project1\UI\obj\Debug\net7.0\ref\UI.dll
+C:\Revature\230206-NET\Project1\UI\bin\Debug\net7.0\Services.dll
+C:\Revature\230206-NET\Project1\UI\bin\Debug\net7.0\Services.pdb

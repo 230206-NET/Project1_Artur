@@ -1,0 +1,17 @@
+C:\Revature\230206-NET\Project1\Services\bin\Debug\net7.0\Services.deps.json
+C:\Revature\230206-NET\Project1\Services\bin\Debug\net7.0\Services.dll
+C:\Revature\230206-NET\Project1\Services\bin\Debug\net7.0\Services.pdb
+C:\Revature\230206-NET\Project1\Services\bin\Debug\net7.0\DataAccess.dll
+C:\Revature\230206-NET\Project1\Services\bin\Debug\net7.0\User.dll
+C:\Revature\230206-NET\Project1\Services\bin\Debug\net7.0\User.pdb
+C:\Revature\230206-NET\Project1\Services\bin\Debug\net7.0\DataAccess.pdb
+C:\Revature\230206-NET\Project1\Services\obj\Debug\net7.0\Services.csproj.AssemblyReference.cache
+C:\Revature\230206-NET\Project1\Services\obj\Debug\net7.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Revature\230206-NET\Project1\Services\obj\Debug\net7.0\Services.AssemblyInfoInputs.cache
+C:\Revature\230206-NET\Project1\Services\obj\Debug\net7.0\Services.AssemblyInfo.cs
+C:\Revature\230206-NET\Project1\Services\obj\Debug\net7.0\Services.csproj.CoreCompileInputs.cache
+C:\Revature\230206-NET\Project1\Services\obj\Debug\net7.0\Services.csproj.CopyComplete
+C:\Revature\230206-NET\Project1\Services\obj\Debug\net7.0\Services.dll
+C:\Revature\230206-NET\Project1\Services\obj\Debug\net7.0\refint\Services.dll
+C:\Revature\230206-NET\Project1\Services\obj\Debug\net7.0\Services.pdb
+C:\Revature\230206-NET\Project1\Services\obj\Debug\net7.0\ref\Services.dll

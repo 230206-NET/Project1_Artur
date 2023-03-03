@@ -25,7 +25,7 @@ public interface IRepository
     void initTicketList(List<User> uList);
 
     void ViewTickets(User u);
-    void ShowUsersList();
+    List<User> ShowUsersList();
 
     void ApproveTicket(int t_id);
 

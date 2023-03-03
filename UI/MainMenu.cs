@@ -1,11 +1,17 @@
 ﻿using Models;
 using DataAccess;
+using Services;
 
 namespace UI;
 
 public class MainMenu
 {
+    private readonly ERSService _service;
+
     private readonly IRepository _repo;
+    public MainMenu(ERSService service) {
+        _service = service;
+    }
 
     public static List<User> UserList = new List<User>();
     public static List<Ticket> TicketList = new List<Ticket>();
@@ -149,7 +155,11 @@ public class MainMenu
     }
 
     public void ShowUsersList() {
-        _repo.ShowUsersList();
+        List<User> usersList = _repo.ShowUsersList();
+
+        foreach (User u in usersList) {
+            Console.WriteLine($"{u.ID} - {u.Username} - {u.IsManager}");
+        }
     }
 
     public string PasswordEntryMasking() {
